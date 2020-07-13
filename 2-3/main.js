@@ -1,3 +1,4 @@
+//今何時？
 const hour = Number(process.argv[2])
 
 if(hour < 0) {
@@ -7,4 +8,3 @@ if(hour < 0) {
 }else if(hour >= 24) {
     console.log(hour % 24)
 }
-
